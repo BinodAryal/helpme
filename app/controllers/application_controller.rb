@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   include StaticRoutes
-  #before_filter :login_required
+  before_filter :login_required
   helper_method :logged_in?, :current_user
 
   private
