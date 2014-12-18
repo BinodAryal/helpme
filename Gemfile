@@ -16,8 +16,9 @@ gem 'jquery-rails'
 gem 'konf'
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
-gem 'sqlite3'
+
 gem 'reform'
+gem 'pg'
 gem 'rollbar'
 gem 'sass-rails', '~> 5.0.0.beta1'
 gem 'searchlight'
@@ -28,6 +29,7 @@ gem 'uglifier'
 gem 'will_paginate'
 
 group :development do
+  gem 'sqlite3'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'html2haml'
